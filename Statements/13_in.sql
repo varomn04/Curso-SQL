@@ -1,0 +1,2 @@
+--Obtiene todos los datos de la tabla "users" que coincidan con los nombres alvaro y carlos(da igual que tengan tilde, mayúsculas o minúsculas, ya que los coge compara igual)
+select * from users where name in ('alvaro', 'Carlos');

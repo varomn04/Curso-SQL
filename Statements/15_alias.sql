@@ -1,0 +1,2 @@
+--Obtiene losa datos del nombre y el init_date de la tabla "users" que estén comprendidos entre 20 y 50 años, pero el init_date tendrá el alias 'fecha de inicio'
+select name , init_date as 'fecha de inicio' from users where age between 20 and 50;
